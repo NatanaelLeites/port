@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #bdbdbd;
+
+    .saludo {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #bdbdbd;
+    }
+
+    .social {
+        a {
+            margin: 0 .3rem;
+            i {
+                color: #bdbdbd;
+                font-size: 1.5rem;
+            }
+        }
+
+        .reloj {
+            font-size: 2rem;
+            padding-left: 3rem;
+        }
+
+        .fecha {
+            font-size: .8rem;
+            padding-left: .2rem;
+        }
+    }
+}

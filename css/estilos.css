@@ -1,7 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #bdbdbd;
+}
+.header .saludo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #bdbdbd;
+}
+.header .social a {
+  margin: 0 0.3rem;
+}
+.header .social a i {
+  color: #bdbdbd;
+  font-size: 1.5rem;
+}
+.header .social .reloj {
+  font-size: 2rem;
+  padding-left: 3rem;
+}
+.header .social .fecha {
+  font-size: 0.8rem;
+  padding-left: 0.2rem;
+}
+
+.nav {
+  padding: 1rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 42%;
+  border: solid 2px white;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #252525;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */

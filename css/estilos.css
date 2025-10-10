@@ -12,10 +12,10 @@
 }
 .header .social a {
   margin: 0 0.3rem;
-}
-.header .social a i {
-  color: #bdbdbd;
-  font-size: 1.5rem;
+  /* i {
+      color: #bdbdbd;
+      font-size: 1.5rem;
+  } */
 }
 .header .social .reloj {
   font-size: 2rem;
@@ -29,9 +29,20 @@
 .nav {
   padding: 1rem;
   position: fixed;
-  bottom: 2rem;
-  left: 42%;
-  border: solid 2px white;
+  bottom: 1rem;
+  left: 30%;
+  right: 30%;
+  text-align: center;
+  background-color: #4a4a4a;
+  border-radius: 30px;
+}
+.nav .nav-item {
+  margin: 0 0.5rem;
+  color: #bdbdbd;
+}
+
+.hero .h1 {
+  font-size: 30rem;
 }
 
 * {
@@ -45,6 +56,8 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #252525;
   padding: 2rem;
+  width: 100dvw;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=estilos.css.map */

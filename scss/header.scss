@@ -13,15 +13,25 @@
     .social {
         a {
             margin: 0 .3rem;
+
             /* i {
                 color: #bdbdbd;
                 font-size: 1.5rem;
             } */
+            img {
+                transition: all .3s;
+                mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0.114) 90%);
+            }
+
+            img:hover {
+                transform: scale(1.1);
+            }
         }
 
         .reloj {
             font-size: 2rem;
             padding-left: 3rem;
+            
         }
 
         .fecha {

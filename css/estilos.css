@@ -17,6 +17,13 @@
       font-size: 1.5rem;
   } */
 }
+.header .social a img {
+  transition: all 0.3s;
+  mask-image: linear-gradient(to bottom, #000000 50%, rgba(0, 0, 0, 0.114) 90%);
+}
+.header .social a img:hover {
+  transform: scale(1.1);
+}
 .header .social .reloj {
   font-size: 2rem;
   padding-left: 3rem;
@@ -33,16 +40,26 @@
   left: 30%;
   right: 30%;
   text-align: center;
-  background-color: #4a4a4a;
-  border-radius: 30px;
+  background-color: rgba(74, 74, 74, 0.537254902);
+  border-radius: 40px;
+  z-index: 999;
 }
 .nav .nav-item {
   margin: 0 0.5rem;
   color: #bdbdbd;
+  transition: all 0.3s;
+}
+.nav .nav-item:hover {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #158d5d;
 }
 
 .hero .h1 {
   font-size: 30rem;
+}
+.hero {
+  mask-image: linear-gradient(to bottom, black 50%, rgba(0, 0, 0, 0.705) 90%);
 }
 
 * {
